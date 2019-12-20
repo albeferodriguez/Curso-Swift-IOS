@@ -16,6 +16,7 @@
 		62822ED923AD6B2400B19C61 /* pooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62822ED823AD6B2400B19C61 /* pooTests.swift */; };
 		62822EE423AD6B2400B19C61 /* pooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62822EE323AD6B2400B19C61 /* pooUITests.swift */; };
 		62822EF323AD7D8300B19C61 /* Mazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62822EF223AD7D8300B19C61 /* Mazda.swift */; };
+		62822EF523AD818600B19C61 /* MazdaMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62822EF423AD818600B19C61 /* MazdaMini.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		62822EE523AD6B2400B19C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62822EF123AD6B8700B19C61 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		62822EF223AD7D8300B19C61 /* Mazda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda.swift; sourceTree = "<group>"; };
+		62822EF423AD818600B19C61 /* MazdaMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazdaMini.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				62822EC323AD6B2300B19C61 /* SceneDelegate.swift */,
 				62822EC523AD6B2300B19C61 /* ViewController.swift */,
 				62822EF223AD7D8300B19C61 /* Mazda.swift */,
+				62822EF423AD818600B19C61 /* MazdaMini.swift */,
 				62822EC723AD6B2300B19C61 /* Main.storyboard */,
 				62822ECA23AD6B2400B19C61 /* Assets.xcassets */,
 				62822ECC23AD6B2400B19C61 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				62822EC223AD6B2300B19C61 /* AppDelegate.swift in Sources */,
 				62822EC423AD6B2300B19C61 /* SceneDelegate.swift in Sources */,
 				62822EF323AD7D8300B19C61 /* Mazda.swift in Sources */,
+				62822EF523AD818600B19C61 /* MazdaMini.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

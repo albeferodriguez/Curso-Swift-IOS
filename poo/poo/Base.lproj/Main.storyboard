@@ -58,6 +58,15 @@
                                     <action selector="speedUpMazda:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uhl-Gt-a0E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzA-Kh-5OC">
+                                <rect key="frame" x="42" y="392" width="82" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Recargar"/>
+                                <connections>
+                                    <action selector="chargeMazda:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQp-KE-62g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

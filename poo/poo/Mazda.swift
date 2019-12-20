@@ -11,17 +11,17 @@ import Foundation
 
 class Mazda {
     
-    var size = "Medium"
-    var numDoors = 4
-    var color = "Blue"
-    var prize = "200000 USD"
-    
-    func turnOn(){
-        print("The car turned on")
-    }
-    
-    func speedUp(){
-        print("The car speeded up")
-    }
+   var size = "Medium"
+      var numDoors = 4
+      var color = "Blue"
+      var prize = "200000 USD"
+      
+      func turnOn(){
+          print("The car turned on")
+      }
+      
+      func speedUp(){
+          print("The car speeded up")
+      }
     
 }

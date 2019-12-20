@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelTitle: UILabel!
     
-    var mazdaObject: Mazda?
+    var mazdaObjectMini: MazdaMini?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,20 +22,22 @@ class ViewController: UIViewController {
     }
 
     @IBAction func createMazdaObject(_ sender: UIButton) {
-        mazdaObject = Mazda()
+        mazdaObjectMini = MazdaMini()
     }
     
     @IBAction func showMazdaProperties(_ sender: UIButton) {
         print(
-            "The size of the mazda is \(mazdaObject!.size), it has \(mazdaObject!.numDoors) and it is \(mazdaObject!.color) and it coast \(mazdaObject!.prize)"
+            "The size of the mazda is \(mazdaObjectMini!.size), it has \(mazdaObjectMini!.numDoors) and it is \(mazdaObjectMini!.color) and it coast \(mazdaObjectMini!.prize) and his charge porcentage is \(mazdaObjectMini!.chargePorcentage)"
         )
     }
     
+    @IBAction func chargeMazda(_ sender: UIButton) {
+    }
     @IBAction func turnOnMazda(_ sender: UIButton) {
-        mazdaObject!.turnOn()
+        mazdaObjectMini!.turnOn()
     }
     @IBAction func speedUpMazda(_ sender: UIButton) {
-        mazdaObject!.speedUp()
+        mazdaObjectMini!.speedUp()
     }
 }
 
