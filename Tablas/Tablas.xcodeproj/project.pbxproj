@@ -14,6 +14,7 @@
 		62651B6E23B279F900FE122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62651B6D23B279F900FE122D /* Assets.xcassets */; };
 		62651B7123B279F900FE122D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62651B6F23B279F900FE122D /* LaunchScreen.storyboard */; };
 		62651B7923B2838A00FE122D /* ViewControllerPantalla2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62651B7823B2838A00FE122D /* ViewControllerPantalla2.swift */; };
+		62651B7E23B3CA6500FE122D /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 62651B7D23B3CA6500FE122D /* PDF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		62651B7223B279F900FE122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62651B7823B2838A00FE122D /* ViewControllerPantalla2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPantalla2.swift; sourceTree = "<group>"; };
 		62651B7A23B2885C00FE122D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		62651B7D23B3CA6500FE122D /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		62651B6323B279F800FE122D /* Tablas */ = {
 			isa = PBXGroup;
 			children = (
+				62651B7D23B3CA6500FE122D /* PDF */,
 				62651B6423B279F800FE122D /* AppDelegate.swift */,
 				62651B6623B279F800FE122D /* SceneDelegate.swift */,
 				62651B6823B279F800FE122D /* ViewController.swift */,
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62651B7123B279F900FE122D /* LaunchScreen.storyboard in Resources */,
+				62651B7E23B3CA6500FE122D /* PDF in Resources */,
 				62651B6E23B279F900FE122D /* Assets.xcassets in Resources */,
 				62651B6C23B279F800FE122D /* Main.storyboard in Resources */,
 			);

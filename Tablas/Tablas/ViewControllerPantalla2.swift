@@ -7,19 +7,44 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewControllerPantalla2: UIViewController {
 
+
+    
+    
+    @IBOutlet var vistaWeb: WKWebView!
+    
+    var nombrePdfRecibido: String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func bhbjdsf(_ sender: Any) {
+        
+        mostrarPdf()
         
     }
     
+    func mostrarPdf(){
+        //1. Conseguir direccion archivo PDF
+        
+        let direccionPdf = URL(fileURLWithPath: Bundle.main.path(forResource: nombrePdfRecibido!, ofType: "pdf", inDirectory: "PDF")!)
+        let request = URLRequest(url: direccionPdf)
+        
+        //2. Transformar archivo pdf a Data
+        
+        
+        //3. Mostrar datos en el Vista Web
+        
+        vistaWeb.load(request)
+        
+        
+    }
+
+   
     /*
     // MARK: - Navigation
 
